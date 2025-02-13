@@ -9,9 +9,10 @@ function App() {
     ciudad: 'Bogota',
     pais: 'Colombia',
   }
+  const animales = ['Perro', 'Gato', 'Pez', 'Conejo']
   return (
     <>
-      <ComponenteA />
+      <ComponenteA items={animales} />
       <hr />
       <ComponenteB />
       <hr />
