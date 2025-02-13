@@ -15,7 +15,7 @@ function App() {
       <hr />
       <ComponenteB />
       <hr />
-      <ComponenteC nombre="Carlos" apellidos="Rojas" direccion={direccion} />
+      <ComponenteC nombre="Carlos" apellidos="Rojas" identificacion={1234} direccion={direccion} />
     </>
   )
 }
