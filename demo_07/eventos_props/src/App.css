@@ -40,37 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-.register-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 300px;
-  margin: auto;
-}
-
-.register-form label {
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-}
-
-.register-form input {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.register-form button {
-  background-color: #007bff;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.register-form button:hover {
-  background-color: #0056b3;
-}
