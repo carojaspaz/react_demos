@@ -15,6 +15,7 @@ const Register: React.FC<RegisterProps> = ({ onRegister }) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+    console.log(formData);
   };
 
   const handleSubmit = (e: React.FormEvent) => {

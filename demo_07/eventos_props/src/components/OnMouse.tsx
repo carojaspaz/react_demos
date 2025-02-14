@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const BotonEjemplo: React.FC = () => {
 
   const manejarCambio = (evento: any) => {
-    console.log(evento.type);
+    console.log(evento);
   };
 
   return (
