@@ -1,7 +1,7 @@
 import useContador from '../hooks/useContador';
 
 const MiContador = () => {
-  const { contador, incrementar, decrementar } = useContador(10);
+  const { contador, incrementar, decrementar } = useContador(20);
 
   return (
     <div>
