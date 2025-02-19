@@ -7,6 +7,7 @@ import Contador_Func from './components/hook_func'
 import MiContador from './components/hook_personalizado'
 import Mounting from './components/mounting'
 import Reloj from './components/unmounting'
+import CascadeDDL from './components/cascade_ddl'
 
 function App() {
   const [toogleView, setToogleView] = useState(true);
@@ -15,6 +16,9 @@ function App() {
   }
   return (
     <>
+      <h1>DropDownList</h1>
+      <CascadeDDL />
+      <hr/>
       <h1>Hook Usando Class</h1>
       <Contador_Class />
       <hr />

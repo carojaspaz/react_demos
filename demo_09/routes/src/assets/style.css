@@ -1,0 +1,12 @@
+#navbar ul {
+  display: flex;
+  margin: 5px;
+}
+
+#navbar li {
+  padding: 12px;
+}
+
+ul {
+  list-style: none;    // to remove bullets
+}
